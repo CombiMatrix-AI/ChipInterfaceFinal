@@ -4,7 +4,7 @@
 
 #include "app.h"
 
-#define VERSION "082424"
+#define VERSION "082424S"
 
 /*
   Revision History ... Should have started this long ago :(

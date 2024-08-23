@@ -1,3 +1,10 @@
+# WORK IN PROGRESS!!!
+
+This slim branch is an attempt to move software off of Labwindows while also modernizing and making
+it system agnostic. This is a precursor and will work alongside development of Python compatible chip
+control libraries.
+
+
 # CMAI Chip Interface Software
 
 Software to control CMAI chip and apply voltages. Working on Windows 11 with AdLink PCIe-9101 card and Keithley 6485. 
