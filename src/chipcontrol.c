@@ -1,7 +1,7 @@
 // ChipControl.c
 //
 // Handle all low level functions of the chip and interface with
-// ADLink PCI-9112 (PCIDAQ1410)
+// ADLink PCIe-9101
 
 #include "chipcontrol.h"
 
