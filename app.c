@@ -4,7 +4,7 @@
 
 #include "app.h"
 
-#define VERSION "082124"
+#define VERSION "082424"
 
 /*
   Revision History ... Should have started this long ago :(
@@ -25,6 +25,9 @@
 
   082124  -- From Loren
 	Updated to Windows 11 and to PCIe-9101 card
+
+  082424  -- From Loren
+	Keithley 6485 finally works with Windows 11 port of software
 	
 
 */
