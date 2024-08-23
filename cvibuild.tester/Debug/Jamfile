@@ -1,0 +1,125 @@
+CCFLAGS = -g ;
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2020\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2020\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2020\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "app.c" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "app.h" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "chipcontrol.c" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "chipcontrol.h" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "chipmapuir.c" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "chipmapuir.h" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "csvutils.c" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "csvutils.h" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "Dask.h" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "debug.h" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "debuguir.c" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "debuguir.h" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "ke6485.h" = "c:\\Program Files (x86)\\IVI Foundation\\IVI\\Include" ;
+LOCATE on "KE6485Driver.c" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "KE6485Driver.h" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "KE6485TestPanel.h" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "KE6485uir.c" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "KE6485uir.h" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "log.c" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "log.h" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "pattern.h" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "patterndef.c" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "patterndef.h" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "patternuir.c" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "patternuir.h" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "properties.c" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "properties.h" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "voltage.c" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+LOCATE on "voltage.h" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main" ;
+Object "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\app.obj" : "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\app.c" ;
+FILENUM on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\app.obj" = 1 ;
+DEFPROTS on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\app.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\app.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\app.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\app.obj.out" ;
+PrjObjects += "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\app.obj" ;
+Object "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\chipcontrol.obj" : "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\chipcontrol.c" ;
+FILENUM on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\chipcontrol.obj" = 2 ;
+DEFPROTS on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\chipcontrol.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\chipcontrol.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\chipcontrol.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\chipcontrol.obj.out" ;
+PrjObjects += "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\chipcontrol.obj" ;
+Object "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\chipmapuir.obj" : "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\chipmapuir.c" ;
+FILENUM on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\chipmapuir.obj" = 3 ;
+DEFPROTS on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\chipmapuir.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\chipmapuir.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\chipmapuir.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\chipmapuir.obj.out" ;
+PrjObjects += "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\chipmapuir.obj" ;
+Object "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\csvutils.obj" : "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\csvutils.c" ;
+FILENUM on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\csvutils.obj" = 4 ;
+DEFPROTS on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\csvutils.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\csvutils.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\csvutils.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\csvutils.obj.out" ;
+PrjObjects += "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\csvutils.obj" ;
+Object "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\debuguir.obj" : "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\debuguir.c" ;
+FILENUM on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\debuguir.obj" = 5 ;
+DEFPROTS on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\debuguir.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\debuguir.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\debuguir.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\debuguir.obj.out" ;
+PrjObjects += "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\debuguir.obj" ;
+Object "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\KE6485Driver.obj" : "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\KE6485Driver.c" ;
+FILENUM on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\KE6485Driver.obj" = 6 ;
+DEFPROTS on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\KE6485Driver.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\KE6485Driver.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\KE6485Driver.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\KE6485Driver.obj.out" ;
+PrjObjects += "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\KE6485Driver.obj" ;
+Object "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\KE6485uir.obj" : "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\KE6485uir.c" ;
+FILENUM on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\KE6485uir.obj" = 7 ;
+DEFPROTS on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\KE6485uir.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\KE6485uir.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\KE6485uir.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\KE6485uir.obj.out" ;
+PrjObjects += "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\KE6485uir.obj" ;
+Object "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\log.obj" : "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\log.c" ;
+FILENUM on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\log.obj" = 8 ;
+DEFPROTS on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\log.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\log.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\log.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\log.obj.out" ;
+PrjObjects += "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\log.obj" ;
+Object "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\patterndef.obj" : "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\patterndef.c" ;
+FILENUM on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\patterndef.obj" = 9 ;
+DEFPROTS on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\patterndef.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\patterndef.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\patterndef.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\patterndef.obj.out" ;
+PrjObjects += "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\patterndef.obj" ;
+Object "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\patternuir.obj" : "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\patternuir.c" ;
+FILENUM on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\patternuir.obj" = 10 ;
+DEFPROTS on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\patternuir.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\patternuir.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\patternuir.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\patternuir.obj.out" ;
+PrjObjects += "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\patternuir.obj" ;
+Object "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\properties.obj" : "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\properties.c" ;
+FILENUM on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\properties.obj" = 11 ;
+DEFPROTS on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\properties.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\properties.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\properties.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\properties.obj.out" ;
+PrjObjects += "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\properties.obj" ;
+Object "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\voltage.obj" : "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\voltage.c" ;
+FILENUM on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\voltage.obj" = 12 ;
+DEFPROTS on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\voltage.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\voltage.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\voltage.obj" = "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\voltage.obj.out" ;
+PrjObjects += "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\voltage.obj" ;
+Object "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\resources.res" : "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\resources.in.rc" ;
+Depends "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\resources.res" : "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\manifest.xml" ;
+MainFromObjects "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\tester.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\tester.exe" : "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\link_options.txt" ;
+Depends "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\tester.exe" : "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\resources.res" ;
+Depends all : "c:\\Users\\combi\\Downloads\\ChipInterfaceFinal-main\\cvibuild.tester\\Debug\\tester.exe" ;

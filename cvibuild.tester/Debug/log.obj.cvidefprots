@@ -1,0 +1,20 @@
+[StartLog]
+Class="Function"
+Prototype="int StartLog();"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\log.c:15:5"
+
+[CloseLog]
+Class="Function"
+Prototype="int CloseLog();"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\log.c:44:5"
+
+[AddErrorToLog]
+Class="Function"
+Prototype="int AddErrorToLog(char *message, char *file, int line);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\log.c:60:5"
+
+[AddToLog]
+Class="Function"
+Prototype="int AddToLog(char *message);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\log.c:77:5"
+

@@ -1,0 +1,85 @@
+[InitializePatternList]
+Class="Function"
+Prototype="int InitializePatternList();"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patterndef.c:10:5"
+
+[InitializePattern]
+Class="Function"
+Prototype="int InitializePattern(struct PatternDefinition *newPattern, int index);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patterndef.c:38:5"
+
+[InsertPattern]
+Class="Function"
+Prototype="int InsertPattern(struct PatternDefinition newPattern, int index);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patterndef.c:79:5"
+
+[DeletePattern]
+Class="Function"
+Prototype="int DeletePattern(int index);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patterndef.c:104:5"
+
+[DeletePatternList]
+Class="Function"
+Prototype="int DeletePatternList(struct ListStructTag *listToDelete);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patterndef.c:143:5"
+
+[GetNumberPatterns]
+Class="Function"
+Prototype="int GetNumberPatterns();"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patterndef.c:157:5"
+
+[GetPatternData]
+Class="Function"
+Prototype="int GetPatternData(struct PatternDefinition *newPattern, int index);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patterndef.c:165:5"
+
+[MakeSolidPattern]
+Class="Function"
+Prototype="int MakeSolidPattern(int *map, int numberRows, int numberColumns, int vline);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patterndef.c:204:5"
+
+[MakeRandomPattern]
+Class="Function"
+Prototype="int MakeRandomPattern(int *map, int numberRows, int numberColumns);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patterndef.c:224:5"
+
+[MakeCheckerboard]
+Class="Function"
+Prototype="int MakeCheckerboard(int *newBlock, int numberRows, int numberColumns, int inverse, int active);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patterndef.c:243:5"
+
+[CreatePattern]
+Class="Function"
+Prototype="int CreatePattern(int *newPattern, int *block, int startingRow, int startingColumn, int numberRows, int numberColumns, int floating);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patterndef.c:294:5"
+
+[CompareMaps]
+Class="Function"
+Prototype="int CompareMaps(int *resultsMap, int *wroteMap, int *readMap, int numberElectrodes);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patterndef.c:340:5"
+
+[LoadPatternData]
+Class="Function"
+Prototype="int LoadPatternData(char *filename, struct PatternDefinition *newPattern);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patterndef.c:375:5"
+
+[SavePatternData]
+Class="Function"
+Prototype="int SavePatternData(char *filename, struct PatternDefinition *newPattern);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patterndef.c:494:5"
+
+[SavePatternList]
+Class="Function"
+Prototype="int SavePatternList(char *filename, int numberPatterns);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patterndef.c:572:5"
+
+[LoadBlockList]
+Class="Function"
+Prototype="int LoadBlockList(char *filename);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patterndef.c:628:5"
+
+[GetBlockFromMap]
+Class="Function"
+Prototype="int GetBlockFromMap(struct PatternDefinition *newPattern, int *newBlock);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patterndef.c:706:5"
+

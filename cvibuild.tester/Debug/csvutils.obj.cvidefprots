@@ -1,0 +1,15 @@
+[LoadCSVFile]
+Class="Function"
+Prototype="int LoadCSVFile(char *filename, int *map, int maxRows, int maxColumns);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\csvutils.c:17:5"
+
+[DisplayCSVMap]
+Class="Function"
+Prototype="int DisplayCSVMap(int *map, int numberRows, int numberColumns);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\csvutils.c:104:5"
+
+[TestCSVFunctions]
+Class="Function"
+Prototype="int TestCSVFunctions(int numberRows, int numberColumns);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\csvutils.c:153:5"
+

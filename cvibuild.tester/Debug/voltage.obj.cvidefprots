@@ -1,0 +1,40 @@
+[StartVoltageSeries]
+Class="Function"
+Prototype="int StartVoltageSeries(struct VoltageHardware profile);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\voltage.c:11:5"
+
+[VoltageProfileThread]
+Class="Function"
+Prototype="int VoltageProfileThread(void *functionData);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\voltage.c:44:17"
+
+[CopyVoltageProfile]
+Class="Function"
+Prototype="int CopyVoltageProfile(struct VoltageHardware *source, struct VoltageHardware *destination);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\voltage.c:107:5"
+
+[StopVoltageSeries]
+Class="Function"
+Prototype="void StopVoltageSeries();"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\voltage.c:127:6"
+
+[GetVoltageThreadID]
+Class="Function"
+Prototype="int GetVoltageThreadID(int channel);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\voltage.c:132:5"
+
+[InitVoltageDataStructure]
+Class="Function"
+Prototype="void InitVoltageDataStructure(struct VoltageHardware *vProfile);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\voltage.c:137:6"
+
+[SaveVoltageDataFile]
+Class="Function"
+Prototype="int SaveVoltageDataFile(char *filename, struct VoltageHardware *vProfile);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\voltage.c:161:5"
+
+[LoadVoltageDataFile]
+Class="Function"
+Prototype="int LoadVoltageDataFile(char *filename, struct VoltageHardware *vProfile);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\voltage.c:218:5"
+

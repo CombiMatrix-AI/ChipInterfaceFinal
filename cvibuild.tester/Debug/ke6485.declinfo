@@ -1,0 +1,2288 @@
+[wchar_t]
+Class="Typedef"
+CanonicalType="unsigned short"
+
+[sdk_wchar_t]
+Class="Typedef"
+CanonicalType="unsigned short"
+
+[struct HINSTANCE__]
+Class="struct"
+
+[HINSTANCE]
+Class="Typedef"
+CanonicalType="struct HINSTANCE__ *"
+
+[BOOL]
+Class="Typedef"
+CanonicalType="int"
+
+[DWORD]
+Class="Typedef"
+CanonicalType="unsigned long"
+
+[LPVOID]
+Class="Typedef"
+CanonicalType="void *"
+
+[LPSTR]
+Class="Typedef"
+CanonicalType="char *"
+
+[HANDLE]
+Class="Typedef"
+CanonicalType="void *"
+
+[intptr_t]
+Class="Typedef"
+CanonicalType="int"
+
+[uintptr_t]
+Class="Typedef"
+CanonicalType="unsigned int"
+
+[size_t]
+Class="Typedef"
+CanonicalType="unsigned int"
+
+[ssize_t]
+Class="Typedef"
+CanonicalType="int"
+
+
+
+
+[KeyCodeUnicode]
+Class="Typedef"
+CanonicalType="int"
+
+[va_list]
+Class="Typedef"
+CanonicalType="char *"
+
+[__gnuc_va_list]
+Class="Typedef"
+CanonicalType="char *"
+
+[ViUInt64]
+Class="Typedef"
+CanonicalType="unsigned long long"
+
+[ViInt64]
+Class="Typedef"
+CanonicalType="long long"
+
+[ViPUInt64]
+Class="Typedef"
+CanonicalType="unsigned long long *"
+
+[ViAUInt64]
+Class="Typedef"
+CanonicalType="unsigned long long *"
+
+[ViPInt64]
+Class="Typedef"
+CanonicalType="long long *"
+
+[ViAInt64]
+Class="Typedef"
+CanonicalType="long long *"
+
+[ViUInt32]
+Class="Typedef"
+CanonicalType="unsigned long"
+
+[ViInt32]
+Class="Typedef"
+CanonicalType="long"
+
+[ViPUInt32]
+Class="Typedef"
+CanonicalType="unsigned long *"
+
+[ViAUInt32]
+Class="Typedef"
+CanonicalType="unsigned long *"
+
+[ViPInt32]
+Class="Typedef"
+CanonicalType="long *"
+
+[ViAInt32]
+Class="Typedef"
+CanonicalType="long *"
+
+[ViUInt16]
+Class="Typedef"
+CanonicalType="unsigned short"
+
+[ViPUInt16]
+Class="Typedef"
+CanonicalType="unsigned short *"
+
+[ViAUInt16]
+Class="Typedef"
+CanonicalType="unsigned short *"
+
+[ViInt16]
+Class="Typedef"
+CanonicalType="short"
+
+[ViPInt16]
+Class="Typedef"
+CanonicalType="short *"
+
+[ViAInt16]
+Class="Typedef"
+CanonicalType="short *"
+
+[ViUInt8]
+Class="Typedef"
+CanonicalType="unsigned char"
+
+[ViPUInt8]
+Class="Typedef"
+CanonicalType="unsigned char *"
+
+[ViAUInt8]
+Class="Typedef"
+CanonicalType="unsigned char *"
+
+[ViInt8]
+Class="Typedef"
+CanonicalType="signed char"
+
+[ViPInt8]
+Class="Typedef"
+CanonicalType="signed char *"
+
+[ViAInt8]
+Class="Typedef"
+CanonicalType="signed char *"
+
+[ViChar]
+Class="Typedef"
+CanonicalType="char"
+
+[ViPChar]
+Class="Typedef"
+CanonicalType="char *"
+
+[ViAChar]
+Class="Typedef"
+CanonicalType="char *"
+
+[ViByte]
+Class="Typedef"
+CanonicalType="unsigned char"
+
+[ViPByte]
+Class="Typedef"
+CanonicalType="unsigned char *"
+
+[ViAByte]
+Class="Typedef"
+CanonicalType="unsigned char *"
+
+[ViAddr]
+Class="Typedef"
+CanonicalType="void *"
+
+[ViPAddr]
+Class="Typedef"
+CanonicalType="void **"
+
+[ViAAddr]
+Class="Typedef"
+CanonicalType="void **"
+
+[ViReal32]
+Class="Typedef"
+CanonicalType="float"
+
+[ViPReal32]
+Class="Typedef"
+CanonicalType="float *"
+
+[ViAReal32]
+Class="Typedef"
+CanonicalType="float *"
+
+[ViReal64]
+Class="Typedef"
+CanonicalType="double"
+
+[ViPReal64]
+Class="Typedef"
+CanonicalType="double *"
+
+[ViAReal64]
+Class="Typedef"
+CanonicalType="double *"
+
+[ViBuf]
+Class="Typedef"
+CanonicalType="unsigned char *"
+
+[ViConstBuf]
+Class="Typedef"
+CanonicalType="const unsigned char *"
+
+[ViPBuf]
+Class="Typedef"
+CanonicalType="unsigned char *"
+
+[ViABuf]
+Class="Typedef"
+CanonicalType="unsigned char **"
+
+[ViString]
+Class="Typedef"
+CanonicalType="char *"
+
+[ViConstString]
+Class="Typedef"
+CanonicalType="const char *"
+
+[ViPString]
+Class="Typedef"
+CanonicalType="char *"
+
+[ViAString]
+Class="Typedef"
+CanonicalType="char **"
+
+[ViRsrc]
+Class="Typedef"
+CanonicalType="char *"
+
+[ViConstRsrc]
+Class="Typedef"
+CanonicalType="const char *"
+
+[ViPRsrc]
+Class="Typedef"
+CanonicalType="char *"
+
+[ViARsrc]
+Class="Typedef"
+CanonicalType="char **"
+
+[ViBoolean]
+Class="Typedef"
+CanonicalType="unsigned short"
+
+[ViPBoolean]
+Class="Typedef"
+CanonicalType="unsigned short *"
+
+[ViABoolean]
+Class="Typedef"
+CanonicalType="unsigned short *"
+
+[ViStatus]
+Class="Typedef"
+CanonicalType="long"
+
+[ViPStatus]
+Class="Typedef"
+CanonicalType="long *"
+
+[ViAStatus]
+Class="Typedef"
+CanonicalType="long *"
+
+[ViVersion]
+Class="Typedef"
+CanonicalType="unsigned long"
+
+[ViPVersion]
+Class="Typedef"
+CanonicalType="unsigned long *"
+
+[ViAVersion]
+Class="Typedef"
+CanonicalType="unsigned long *"
+
+[ViObject]
+Class="Typedef"
+CanonicalType="unsigned long"
+
+[ViPObject]
+Class="Typedef"
+CanonicalType="unsigned long *"
+
+[ViAObject]
+Class="Typedef"
+CanonicalType="unsigned long *"
+
+[ViSession]
+Class="Typedef"
+CanonicalType="unsigned long"
+
+[ViPSession]
+Class="Typedef"
+CanonicalType="unsigned long *"
+
+[ViASession]
+Class="Typedef"
+CanonicalType="unsigned long *"
+
+[ViAttr]
+Class="Typedef"
+CanonicalType="unsigned long"
+
+[ViEvent]
+Class="Typedef"
+CanonicalType="unsigned long"
+
+[ViPEvent]
+Class="Typedef"
+CanonicalType="unsigned long *"
+
+[ViFindList]
+Class="Typedef"
+CanonicalType="unsigned long"
+
+[ViPFindList]
+Class="Typedef"
+CanonicalType="unsigned long *"
+
+[ViBusAddress]
+Class="Typedef"
+CanonicalType="unsigned long"
+
+[ViBusSize]
+Class="Typedef"
+CanonicalType="unsigned long"
+
+[ViAttrState]
+Class="Typedef"
+CanonicalType="unsigned long"
+
+[ViBusAddress64]
+Class="Typedef"
+CanonicalType="unsigned long long"
+
+[ViPBusAddress64]
+Class="Typedef"
+CanonicalType="unsigned long long *"
+
+[ViEventType]
+Class="Typedef"
+CanonicalType="unsigned long"
+
+[ViPEventType]
+Class="Typedef"
+CanonicalType="unsigned long *"
+
+[ViAEventType]
+Class="Typedef"
+CanonicalType="unsigned long *"
+
+[ViPAttrState]
+Class="Typedef"
+CanonicalType="void *"
+
+[ViPAttr]
+Class="Typedef"
+CanonicalType="unsigned long *"
+
+[ViAAttr]
+Class="Typedef"
+CanonicalType="unsigned long *"
+
+[ViKeyId]
+Class="Typedef"
+CanonicalType="char *"
+
+[ViConstKeyId]
+Class="Typedef"
+CanonicalType="const char *"
+
+[ViPKeyId]
+Class="Typedef"
+CanonicalType="char *"
+
+[ViJobId]
+Class="Typedef"
+CanonicalType="unsigned long"
+
+[ViPJobId]
+Class="Typedef"
+CanonicalType="unsigned long *"
+
+[ViAccessMode]
+Class="Typedef"
+CanonicalType="unsigned long"
+
+[ViPAccessMode]
+Class="Typedef"
+CanonicalType="unsigned long *"
+
+[ViPBusAddress]
+Class="Typedef"
+CanonicalType="unsigned long *"
+
+[ViEventFilter]
+Class="Typedef"
+CanonicalType="unsigned long"
+
+[ViVAList]
+Class="Typedef"
+CanonicalType="char *"
+
+[ViHndlr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, unsigned long, unsigned long, void *) __attribute__((stdcall))"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[struct IviRangeTableEntry]
+Class="struct"
+FieldName0="discreteOrMinValue"
+FieldType0="ViReal64"
+FieldTSType0="ViReal64"
+FieldName1="maxValue"
+FieldType1="ViReal64"
+FieldTSType1="ViReal64"
+FieldName2="coercedValue"
+FieldType2="ViReal64"
+FieldTSType2="ViReal64"
+FieldName3="cmdString"
+FieldType3="ViString"
+FieldTSType3="ViString"
+FieldName4="cmdValue"
+FieldType4="ViInt32"
+FieldTSType4="ViInt32"
+Alignment=8
+
+[IviRangeTableEntry]
+Class="Typedef"
+CanonicalType="struct IviRangeTableEntry"
+
+[struct IviRangeTableEntryViInt64]
+Class="struct"
+FieldName0="discreteOrMinValue"
+FieldType0="ViInt64"
+FieldTSType0="ViInt64"
+FieldName1="maxValue"
+FieldType1="ViInt64"
+FieldTSType1="ViInt64"
+FieldName2="coercedValue"
+FieldType2="ViInt64"
+FieldTSType2="ViInt64"
+FieldName3="cmdString"
+FieldType3="ViString"
+FieldTSType3="ViString"
+FieldName4="cmdValue"
+FieldType4="ViInt32"
+FieldTSType4="ViInt32"
+Alignment=8
+
+[IviRangeTableEntryViInt64]
+Class="Typedef"
+CanonicalType="struct IviRangeTableEntryViInt64"
+
+[struct IviRangeTable]
+Class="struct"
+FieldName0="type"
+FieldType0="ViInt32"
+FieldTSType0="ViInt32"
+FieldName1="hasMin"
+FieldType1="ViBoolean"
+FieldTSType1="ViBoolean"
+FieldName2="hasMax"
+FieldType2="ViBoolean"
+FieldTSType2="ViBoolean"
+FieldName3="customInfo"
+FieldType3="ViString"
+FieldTSType3="ViString"
+FieldName4="rangeValues"
+FieldType4="void *"
+FieldTSType4="void *"
+Alignment=4
+
+[IviRangeTable]
+Class="Typedef"
+CanonicalType="struct IviRangeTable"
+
+[IviRangeTablePtr]
+Class="Typedef"
+CanonicalType="IviRangeTable *"
+
+[IviConfigStoreHandle]
+Class="Typedef"
+CanonicalType="void *"
+
+[struct IviStringValueEntry]
+Class="struct"
+FieldName0="value"
+FieldType0="ViInt32"
+FieldTSType0="ViInt32"
+FieldName1="string"
+FieldType1="ViString"
+FieldTSType1="ViString"
+Alignment=4
+
+[IviStringValueEntry]
+Class="Typedef"
+CanonicalType="struct IviStringValueEntry"
+
+[IviStringValueTable]
+Class="Typedef"
+CanonicalType="IviStringValueEntry []"
+
+[IviAttrFlags]
+Class="Typedef"
+CanonicalType="long"
+
+[struct IviInvalEntry]
+Class="struct"
+FieldName0="attribute"
+FieldType0="ViAttr"
+FieldTSType0="ViAttr"
+FieldName1="allChannels"
+FieldType1="ViBoolean"
+FieldTSType1="ViBoolean"
+Alignment=4
+
+[IviInvalEntry]
+Class="Typedef"
+CanonicalType="struct IviInvalEntry"
+
+[struct IviLogicalNameEntry]
+Class="struct"
+FieldName0="logicalName"
+FieldType0="ViString"
+FieldTSType0="ViString"
+FieldName1="fromFile"
+FieldType1="ViBoolean"
+FieldTSType1="ViBoolean"
+Alignment=4
+
+[IviLogicalNameEntry]
+Class="Typedef"
+CanonicalType="struct IviLogicalNameEntry"
+
+[IviValueType]
+Class="Typedef"
+CanonicalType="long"
+
+[IviCallbackType]
+Class="Typedef"
+CanonicalType="long"
+
+[Ivi_InitFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(char *, unsigned short, unsigned short, unsigned long *) __attribute__((stdcall))"
+
+[Ivi_InitWithOptionsFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(char *, unsigned short, unsigned short, char *, unsigned long *) __attribute__((stdcall))"
+
+[Ivi_CloseFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long) __attribute__((stdcall))"
+
+[Ivi_ResetFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long) __attribute__((stdcall))"
+
+[Ivi_SelfTestFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, short *, char *) __attribute__((stdcall))"
+
+[Ivi_ErrorQueryFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, long *, char *) __attribute__((stdcall))"
+
+[Ivi_ErrorMessageFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, long, char *) __attribute__((stdcall))"
+
+[Ivi_RevisionQueryFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, char *, char *) __attribute__((stdcall))"
+
+[Ivi_GetAttributeViInt32FuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, long *) __attribute__((stdcall))"
+
+[Ivi_GetAttributeViInt64FuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, long long *) __attribute__((stdcall))"
+
+[Ivi_GetAttributeViReal64FuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, double *) __attribute__((stdcall))"
+
+[Ivi_GetAttributeViStringFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, long, char *) __attribute__((stdcall))"
+
+[Ivi_GetAttributeViBooleanFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, unsigned short *) __attribute__((stdcall))"
+
+[Ivi_GetAttributeViSessionFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, unsigned long *) __attribute__((stdcall))"
+
+[Ivi_SetAttributeViInt32FuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, long) __attribute__((stdcall))"
+
+[Ivi_SetAttributeViInt64FuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, long long) __attribute__((stdcall))"
+
+[Ivi_SetAttributeViReal64FuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, double) __attribute__((stdcall))"
+
+[Ivi_SetAttributeViStringFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, const char *) __attribute__((stdcall))"
+
+[Ivi_SetAttributeViBooleanFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, unsigned short) __attribute__((stdcall))"
+
+[Ivi_SetAttributeViSessionFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, unsigned long) __attribute__((stdcall))"
+
+[Ivi_CheckAttributeViInt32FuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, long) __attribute__((stdcall))"
+
+[Ivi_CheckAttributeViInt64FuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, long long) __attribute__((stdcall))"
+
+[Ivi_CheckAttributeViReal64FuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, double) __attribute__((stdcall))"
+
+[Ivi_CheckAttributeViStringFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, const char *) __attribute__((stdcall))"
+
+[Ivi_CheckAttributeViBooleanFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, unsigned short) __attribute__((stdcall))"
+
+[Ivi_CheckAttributeViSessionFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, unsigned long) __attribute__((stdcall))"
+
+[Ivi_GetErrorInfoFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, long *, long *, char *) __attribute__((stdcall))"
+
+[Ivi_ClearErrorInfoFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long) __attribute__((stdcall))"
+
+[Ivi_LockSessionFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, unsigned short *) __attribute__((stdcall))"
+
+[Ivi_UnlockSessionFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, unsigned short *) __attribute__((stdcall))"
+
+[Ivi_GetNextCoercionRecordFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, long, char *) __attribute__((stdcall))"
+
+[Ivi_GetNextInterchangeWarningPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, long, char *) __attribute__((stdcall))"
+
+[Ivi_ResetInterchangeCheckPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long) __attribute__((stdcall))"
+
+[Ivi_ValidateChannelStringFunc]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned short *, long *) __attribute__((stdcall))"
+
+[Ivi_SetValInStringCallbackFunc]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, unsigned long, const char *) __attribute__((stdcall))"
+
+[ReadAttrViInt32_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, unsigned long, const char *, unsigned long, long *) __attribute__((stdcall))"
+
+[WriteAttrViInt32_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, unsigned long, const char *, unsigned long, long) __attribute__((stdcall))"
+
+[CheckAttrViInt32_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, long) __attribute__((stdcall))"
+
+[CompareAttrViInt32_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, long, long, long *) __attribute__((stdcall))"
+
+[CoerceAttrViInt32_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, long, long *) __attribute__((stdcall))"
+
+[ReadAttrViInt64_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, unsigned long, const char *, unsigned long, long long *) __attribute__((stdcall))"
+
+[WriteAttrViInt64_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, unsigned long, const char *, unsigned long, long long) __attribute__((stdcall))"
+
+[CheckAttrViInt64_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, long long) __attribute__((stdcall))"
+
+[CompareAttrViInt64_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, long long, long long, long *) __attribute__((stdcall))"
+
+[CoerceAttrViInt64_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, long long, long long *) __attribute__((stdcall))"
+
+[ReadAttrViReal64_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, unsigned long, const char *, unsigned long, double *) __attribute__((stdcall))"
+
+[WriteAttrViReal64_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, unsigned long, const char *, unsigned long, double) __attribute__((stdcall))"
+
+[CheckAttrViReal64_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, double) __attribute__((stdcall))"
+
+[CompareAttrViReal64_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, double, double, long *) __attribute__((stdcall))"
+
+[CoerceAttrViReal64_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, double, double *) __attribute__((stdcall))"
+
+[ReadAttrViString_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, unsigned long, const char *, unsigned long, const char *) __attribute__((stdcall))"
+
+[WriteAttrViString_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, unsigned long, const char *, unsigned long, const char *) __attribute__((stdcall))"
+
+[CheckAttrViString_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, const char *) __attribute__((stdcall))"
+
+[CompareAttrViString_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, const char *, const char *, long *) __attribute__((stdcall))"
+
+[CoerceAttrViString_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, const char *) __attribute__((stdcall))"
+
+[ReadAttrViBoolean_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, unsigned long, const char *, unsigned long, unsigned short *) __attribute__((stdcall))"
+
+[WriteAttrViBoolean_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, unsigned long, const char *, unsigned long, unsigned short) __attribute__((stdcall))"
+
+[CheckAttrViBoolean_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, unsigned short) __attribute__((stdcall))"
+
+[CompareAttrViBoolean_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, unsigned short, unsigned short, long *) __attribute__((stdcall))"
+
+[CoerceAttrViBoolean_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, unsigned short, unsigned short *) __attribute__((stdcall))"
+
+[ReadAttrViSession_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, unsigned long, const char *, unsigned long, unsigned long *) __attribute__((stdcall))"
+
+[WriteAttrViSession_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, unsigned long, const char *, unsigned long, unsigned long) __attribute__((stdcall))"
+
+[CheckAttrViSession_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, unsigned long) __attribute__((stdcall))"
+
+[CompareAttrViSession_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, unsigned long, unsigned long, long *) __attribute__((stdcall))"
+
+[CoerceAttrViSession_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, unsigned long, unsigned long *) __attribute__((stdcall))"
+
+[ReadAttrViAddr_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, unsigned long, const char *, unsigned long, void **) __attribute__((stdcall))"
+
+[WriteAttrViAddr_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, unsigned long, const char *, unsigned long, void *) __attribute__((stdcall))"
+
+[CheckAttrViAddr_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, void *) __attribute__((stdcall))"
+
+[CompareAttrViAddr_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, void *, void *, long *) __attribute__((stdcall))"
+
+[CoerceAttrViAddr_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, void *, void **) __attribute__((stdcall))"
+
+[RangeTable_CallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, const char *, unsigned long, IviRangeTable **) __attribute__((stdcall))"
+
+[Ivi_OPCCallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, unsigned long) __attribute__((stdcall))"
+
+[Ivi_CheckStatusCallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, unsigned long) __attribute__((stdcall))"
+
+[Ivi_InterchangeCheckCallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, long, const char *, unsigned long) __attribute__((stdcall))"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Ivi_IviInitFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(char *, unsigned short, unsigned short, unsigned long) __attribute__((stdcall))"
+
+[Ivi_IviCloseFuncPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long) __attribute__((stdcall))"
+
+[IviMessage]
+Class="Typedef"
+CanonicalType="long"
+
+[Ivi_BufferedIOCallbackPtr]
+Class="Typedef"
+CanonicalType="long (*)(unsigned long, long) __attribute__((stdcall))"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[KE6485_init]
+Class="Function"
+Prototype="ViStatus KE6485_init(ViRsrc resourceName, ViBoolean IDQuery, ViBoolean resetDevice, ViSession *vi);"
+IsStatic=0
+IsVariadic=0
+ArgSize=16
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_InitWithOptions]
+Class="Function"
+Prototype="ViStatus KE6485_InitWithOptions(ViRsrc resourceName, ViBoolean IDQuery, ViBoolean resetDevice, ViConstString optionString, ViSession *newVi);"
+IsStatic=0
+IsVariadic=0
+ArgSize=20
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_Reconnect]
+Class="Function"
+Prototype="ViStatus KE6485_Reconnect(ViRsrc resourceName, ViSession *instrumentHandle);"
+IsStatic=0
+IsVariadic=0
+ArgSize=8
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_GetBufferInfo]
+Class="Function"
+Prototype="ViStatus KE6485_GetBufferInfo(ViSession instrumentHandle, ViInt32 *timestampType, ViInt32 *sampleCount);"
+IsStatic=0
+IsVariadic=0
+ArgSize=12
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_FetchBufferData]
+Class="Function"
+Prototype="ViStatus KE6485_FetchBufferData(ViSession instrumentHandle, ViInt32 readingFormat, ViInt32 maximumTime_ms, ViInt32 arraySize, ViReal64 readingArray[], ViInt32 *actualNumber_ofPoints);"
+IsStatic=0
+IsVariadic=0
+ArgSize=24
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_Disconnect]
+Class="Function"
+Prototype="ViStatus KE6485_Disconnect(ViSession instrumentHandle);"
+IsStatic=0
+IsVariadic=0
+ArgSize=4
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_close]
+Class="Function"
+Prototype="ViStatus KE6485_close(ViSession vi);"
+IsStatic=0
+IsVariadic=0
+ArgSize=4
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_GetNextCoercionRecord]
+Class="Function"
+Prototype="ViStatus KE6485_GetNextCoercionRecord(ViSession vi, ViInt32 bufferSize, ViChar record[]);"
+IsStatic=0
+IsVariadic=0
+ArgSize=12
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_InvalidateAllAttributes]
+Class="Function"
+Prototype="ViStatus KE6485_InvalidateAllAttributes(ViSession vi);"
+IsStatic=0
+IsVariadic=0
+ArgSize=4
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ClearInterchangeWarnings]
+Class="Function"
+Prototype="ViStatus KE6485_ClearInterchangeWarnings(ViSession vi);"
+IsStatic=0
+IsVariadic=0
+ArgSize=4
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ResetInterchangeCheck]
+Class="Function"
+Prototype="ViStatus KE6485_ResetInterchangeCheck(ViSession vi);"
+IsStatic=0
+IsVariadic=0
+ArgSize=4
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_GetNextInterchangeWarning]
+Class="Function"
+Prototype="ViStatus KE6485_GetNextInterchangeWarning(ViSession vi, ViInt32 bufferSize, ViChar warnString[]);"
+IsStatic=0
+IsVariadic=0
+ArgSize=12
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_LockSession]
+Class="Function"
+Prototype="ViStatus KE6485_LockSession(ViSession vi, ViBoolean *callerHasLock);"
+IsStatic=0
+IsVariadic=0
+ArgSize=8
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_UnlockSession]
+Class="Function"
+Prototype="ViStatus KE6485_UnlockSession(ViSession vi, ViBoolean *callerHasLock);"
+IsStatic=0
+IsVariadic=0
+ArgSize=8
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureMeasurement]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureMeasurement(ViSession vi, ViInt32 function, ViReal64 range, ViReal64 resolution);"
+IsStatic=0
+IsVariadic=0
+ArgSize=24
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureDCVSense]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureDCVSense(ViSession vi, ViReal64 range, double NPLC, ViBoolean guard, ViBoolean extfeedback, ViBoolean autoRange);"
+IsStatic=0
+IsVariadic=0
+ArgSize=32
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureDCISense]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureDCISense(ViSession vi, ViReal64 range, double NPLC, ViBoolean autoRange, ViBoolean damping);"
+IsStatic=0
+IsVariadic=0
+ArgSize=28
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureRESSense]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureRESSense(ViSession vi, ViReal64 range, double NPLC, ViBoolean guard, ViBoolean autoRange);"
+IsStatic=0
+IsVariadic=0
+ArgSize=28
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureCHARGESense]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureCHARGESense(ViSession vi, ViReal64 range, double NPLC, ViBoolean autoDischarge, ViBoolean autoRange, ViReal64 autoDischargeLevel);"
+IsStatic=0
+IsVariadic=0
+ArgSize=36
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureTrigger]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureTrigger(ViSession vi, ViInt32 triggerSource, ViReal64 triggerDelay);"
+IsStatic=0
+IsVariadic=0
+ArgSize=16
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_AcquireNewPercentReference]
+Class="Function"
+Prototype="ViStatus KE6485_AcquireNewPercentReference(ViSession vi);"
+IsStatic=0
+IsVariadic=0
+ArgSize=4
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_AcquireNewRelativeReference]
+Class="Function"
+Prototype="ViStatus KE6485_AcquireNewRelativeReference(ViSession vi);"
+IsStatic=0
+IsVariadic=0
+ArgSize=4
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_SaveSetup]
+Class="Function"
+Prototype="ViStatus KE6485_SaveSetup(ViSession vi, ViInt32 setupNumber);"
+IsStatic=0
+IsVariadic=0
+ArgSize=8
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_RecallSetup]
+Class="Function"
+Prototype="ViStatus KE6485_RecallSetup(ViSession vi, ViInt32 setupNumber);"
+IsStatic=0
+IsVariadic=0
+ArgSize=8
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_SelectPowerOnSetup]
+Class="Function"
+Prototype="ViStatus KE6485_SelectPowerOnSetup(ViSession vi, ViInt32 setupNumber);"
+IsStatic=0
+IsVariadic=0
+ArgSize=8
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_Spoll]
+Class="Function"
+Prototype="ViStatus KE6485_Spoll(ViSession vi, ViBoolean *SRQ);"
+IsStatic=0
+IsVariadic=0
+ArgSize=8
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureSRQEvents]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureSRQEvents(ViSession vi, unsigned int condition);"
+IsStatic=0
+IsVariadic=0
+ArgSize=8
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_EnableSRQEvents]
+Class="Function"
+Prototype="ViStatus KE6485_EnableSRQEvents(ViSession vi, int enable);"
+IsStatic=0
+IsVariadic=0
+ArgSize=8
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_Read]
+Class="Function"
+Prototype="ViStatus KE6485_Read(ViSession vi, ViInt32 maxTime, ViReal64 *reading);"
+IsStatic=0
+IsVariadic=0
+ArgSize=12
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_Fetch]
+Class="Function"
+Prototype="ViStatus KE6485_Fetch(ViSession vi, ViInt32 maxTime, ViReal64 *reading);"
+IsStatic=0
+IsVariadic=0
+ArgSize=12
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_FetchMultiPointChar]
+Class="Function"
+Prototype="ViStatus KE6485_FetchMultiPointChar(ViSession vi, ViInt32 maxTime, ViInt32 arraySize, ViChar readingArray[], ViInt32 *actualNumber_ofPoints);"
+IsStatic=0
+IsVariadic=0
+ArgSize=20
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_Abort]
+Class="Function"
+Prototype="ViStatus KE6485_Abort(ViSession vi);"
+IsStatic=0
+IsVariadic=0
+ArgSize=4
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ReadMultiPointChar]
+Class="Function"
+Prototype="ViStatus KE6485_ReadMultiPointChar(ViSession vi, ViInt32 maximumTime_ms, ViInt32 arraySize, ViChar readingArray[], ViInt32 *actualPts);"
+IsStatic=0
+IsVariadic=0
+ArgSize=20
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_Initiate]
+Class="Function"
+Prototype="ViStatus KE6485_Initiate(ViSession vi);"
+IsStatic=0
+IsVariadic=0
+ArgSize=4
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_IsOverRange]
+Class="Function"
+Prototype="ViStatus KE6485_IsOverRange(ViSession vi, ViReal64 measurementValue, ViBoolean *isOverRange);"
+IsStatic=0
+IsVariadic=0
+ArgSize=16
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureMultiPoint]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureMultiPoint(ViSession vi, ViInt32 triggerCount, ViInt32 sampleCount, ViInt32 sampleTrigger, ViReal64 sampleInterval_sec);"
+IsStatic=0
+IsVariadic=0
+ArgSize=24
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureMeasCompleteDest]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureMeasCompleteDest(ViSession vi, ViInt32 measCompleteDest);"
+IsStatic=0
+IsVariadic=0
+ArgSize=8
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureTriggerSlope]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureTriggerSlope(ViSession vi, ViInt32 triggerSlope);"
+IsStatic=0
+IsVariadic=0
+ArgSize=8
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureSourceTrigger]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureSourceTrigger(ViSession instrumentHandle, ViInt32 triggerSource, ViReal64 triggerDelay_sec);"
+IsStatic=0
+IsVariadic=0
+ArgSize=16
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureArmLayer]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureArmLayer(ViSession vi, ViInt32 count, ViInt32 triggerSource, double timer, ViInt32 armDirection, ViInt32 triggerLinkInputLine, ViInt32 triggerLinkOutputLine, ViInt32 outputOnOff);"
+IsStatic=0
+IsVariadic=0
+ArgSize=36
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureTriggerLayer]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureTriggerLayer(ViSession vi, ViInt32 count, ViInt32 triggerSource, double delay, ViInt32 triggerDirection, ViInt32 triggerLinkInputLine, ViInt32 triggerLinkOutputLine, ViInt32 triggerOutputOnOff);"
+IsStatic=0
+IsVariadic=0
+ArgSize=36
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureBuffer]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureBuffer(ViSession vi, ViInt32 dataElements, ViInt32 dataFormat, ViInt32 bufferSize, ViInt32 timeStampFormat);"
+IsStatic=0
+IsVariadic=0
+ArgSize=20
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ClearBuffer]
+Class="Function"
+Prototype="ViStatus KE6485_ClearBuffer(ViSession vi);"
+IsStatic=0
+IsVariadic=0
+ArgSize=4
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_EnableBuffer]
+Class="Function"
+Prototype="ViStatus KE6485_EnableBuffer(ViSession vi, ViBoolean enableBuffer);"
+IsStatic=0
+IsVariadic=0
+ArgSize=8
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ReadMultiPoint]
+Class="Function"
+Prototype="ViStatus KE6485_ReadMultiPoint(ViSession vi, ViInt32 maxTime, ViInt32 arraySize, ViReal64 readingArray[], ViInt32 *actualPts);"
+IsStatic=0
+IsVariadic=0
+ArgSize=20
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_FetchMultiPoint]
+Class="Function"
+Prototype="ViStatus KE6485_FetchMultiPoint(ViSession vi, ViInt32 maxTime, ViInt32 arraySize, ViReal64 readingArray[], ViInt32 *actualPts);"
+IsStatic=0
+IsVariadic=0
+ArgSize=20
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureApertureTimeInfo]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureApertureTimeInfo(ViSession vi, ViReal64 apertureTime, ViInt32 apertureTimeUnit);"
+IsStatic=0
+IsVariadic=0
+ArgSize=16
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_SendSoftwareTrigger]
+Class="Function"
+Prototype="ViStatus KE6485_SendSoftwareTrigger(ViSession vi);"
+IsStatic=0
+IsVariadic=0
+ArgSize=4
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureAutoZeroMode]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureAutoZeroMode(ViSession vi, ViInt32 autoZeroMode);"
+IsStatic=0
+IsVariadic=0
+ArgSize=8
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureFilter]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureFilter(ViSession vi, ViInt32 filterType, ViInt32 count, ViReal64 window, ViBoolean enabled);"
+IsStatic=0
+IsVariadic=0
+ArgSize=24
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureMedianFilter]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureMedianFilter(ViSession vi, ViInt32 rank, ViBoolean enabled);"
+IsStatic=0
+IsVariadic=0
+ArgSize=12
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureStatistics]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureStatistics(ViSession vi, ViInt32 function);"
+IsStatic=0
+IsVariadic=0
+ArgSize=8
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureRelative]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureRelative(ViSession vi, ViReal64 reference, ViBoolean enabled);"
+IsStatic=0
+IsVariadic=0
+ArgSize=16
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureMath]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureMath(ViSession vi, ViInt32 function, ViBoolean enabled);"
+IsStatic=0
+IsVariadic=0
+ArgSize=12
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureMathMXB]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureMathMXB(ViSession vi, ViReal64 m, ViReal64 b);"
+IsStatic=0
+IsVariadic=0
+ArgSize=20
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureMathPercent]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureMathPercent(ViSession vi, ViReal64 percent);"
+IsStatic=0
+IsVariadic=0
+ArgSize=12
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureDO]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureDO(ViSession vi, ViInt32 level, ViReal64 timeDelay, ViInt32 TTL4Mode, ViBoolean TTL4Level);"
+IsStatic=0
+IsVariadic=0
+ArgSize=24
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureLimit]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureLimit(ViSession vi, ViInt32 limitIndex, ViReal64 upperLimit, ViReal64 lowerLimit, ViBoolean enabled);"
+IsStatic=0
+IsVariadic=0
+ArgSize=28
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureAutoRangeLimitGroup]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureAutoRangeLimitGroup(ViSession instrumentHandle, ViInt32 limitGroup);"
+IsStatic=0
+IsVariadic=0
+ArgSize=8
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureAutoRangeLimits]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureAutoRangeLimits(ViSession instrumentHandle, ViReal64 upperLimit, ViReal64 lowerLimit);"
+IsStatic=0
+IsVariadic=0
+ArgSize=20
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_GetApertureTimeInfo]
+Class="Function"
+Prototype="ViStatus KE6485_GetApertureTimeInfo(ViSession vi, ViReal64 *apertureTime, ViInt32 *apertureTimeUnits);"
+IsStatic=0
+IsVariadic=0
+ArgSize=12
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigurePowerLineFrequency]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigurePowerLineFrequency(ViSession vi, ViReal64 powerLineFreq);"
+IsStatic=0
+IsVariadic=0
+ArgSize=12
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_error_query]
+Class="Function"
+Prototype="ViStatus KE6485_error_query(ViSession vi, ViInt32 *errorCode, ViChar errorMessage[]);"
+IsStatic=0
+IsVariadic=0
+ArgSize=12
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_GetErrorInfo]
+Class="Function"
+Prototype="ViStatus KE6485_GetErrorInfo(ViSession vi, ViStatus *primaryError, ViStatus *secondaryError, ViChar errorElaboration[256]);"
+IsStatic=0
+IsVariadic=0
+ArgSize=16
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ClearErrorInfo]
+Class="Function"
+Prototype="ViStatus KE6485_ClearErrorInfo(ViSession vi);"
+IsStatic=0
+IsVariadic=0
+ArgSize=4
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_GetError]
+Class="Function"
+Prototype="ViStatus KE6485_GetError(ViSession vi, ViStatus *errorCode, ViInt32 bufferSize, ViChar description[]);"
+IsStatic=0
+IsVariadic=0
+ArgSize=16
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ClearError]
+Class="Function"
+Prototype="ViStatus KE6485_ClearError(ViSession vi);"
+IsStatic=0
+IsVariadic=0
+ArgSize=4
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_error_message]
+Class="Function"
+Prototype="ViStatus KE6485_error_message(ViSession vi, ViStatus errorCode, ViChar errorMessage[256]);"
+IsStatic=0
+IsVariadic=0
+ArgSize=12
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_FetchStatistics]
+Class="Function"
+Prototype="ViStatus KE6485_FetchStatistics(ViSession vi, ViInt32 maxTime_ms, ViReal64 *data);"
+IsStatic=0
+IsVariadic=0
+ArgSize=12
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_FetchLimitData]
+Class="Function"
+Prototype="ViStatus KE6485_FetchLimitData(ViSession instrumentHandle, ViBoolean *failedUpperLimit1, ViBoolean *failedLowerLimit1, ViBoolean *failedUpperLimit2, ViBoolean *failedLowerLimit2);"
+IsStatic=0
+IsVariadic=0
+ArgSize=20
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_reset]
+Class="Function"
+Prototype="ViStatus KE6485_reset(ViSession vi);"
+IsStatic=0
+IsVariadic=0
+ArgSize=4
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ResetWithDefaults]
+Class="Function"
+Prototype="ViStatus KE6485_ResetWithDefaults(ViSession vi);"
+IsStatic=0
+IsVariadic=0
+ArgSize=4
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_Disable]
+Class="Function"
+Prototype="ViStatus KE6485_Disable(ViSession vi);"
+IsStatic=0
+IsVariadic=0
+ArgSize=4
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureSourceBias]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureSourceBias(ViSession instrumentHandle, ViInt32 function, ViReal64 range, ViReal64 level, ViReal64 complianceLimit, ViInt32 standbyMode);"
+IsStatic=0
+IsVariadic=0
+ArgSize=36
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureSourceDC]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureSourceDC(ViSession instrumentHandle, ViInt32 function, ViReal64 range, ViReal64 level, ViBoolean EnablePulsing, ViReal64 complianceLimit, ViInt32 standbyMode);"
+IsStatic=0
+IsVariadic=0
+ArgSize=40
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureSourceRamp]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureSourceRamp(ViSession instrumentHandle, ViInt32 function, ViReal64 range, ViInt32 rampMode, ViReal64 start, ViReal64 stop, ViInt32 stepCount, ViBoolean EnablePulsing, ViReal64 complianceLimit, ViInt32 standbyMode);"
+IsStatic=0
+IsVariadic=0
+ArgSize=56
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ConfigureSourceInterlock]
+Class="Function"
+Prototype="ViStatus KE6485_ConfigureSourceInterlock(ViSession vi, ViBoolean enabled);"
+IsStatic=0
+IsVariadic=0
+ArgSize=8
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_EnableSource]
+Class="Function"
+Prototype="ViStatus KE6485_EnableSource(ViSession instrumentHandle, ViInt32 generator, ViInt32 outputAction);"
+IsStatic=0
+IsVariadic=0
+ArgSize=12
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ControlSource]
+Class="Function"
+Prototype="ViStatus KE6485_ControlSource(ViSession instrumentHandle, ViInt32 outputState);"
+IsStatic=0
+IsVariadic=0
+ArgSize=8
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_StepCount]
+Class="Function"
+Prototype="ViInt32 KE6485_StepCount(ViReal64 start, ViReal64 stop, ViReal64 stepSize);"
+IsStatic=0
+IsVariadic=0
+ArgSize=24
+ResultType="ViInt32"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_self_test]
+Class="Function"
+Prototype="ViStatus KE6485_self_test(ViSession vi, ViInt16 *selfTestResult, ViChar selfTestMessage[]);"
+IsStatic=0
+IsVariadic=0
+ArgSize=12
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_revision_query]
+Class="Function"
+Prototype="ViStatus KE6485_revision_query(ViSession vi, ViChar instrumentDriverRevision[], ViChar firmwareRevision[]);"
+IsStatic=0
+IsVariadic=0
+ArgSize=12
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_WriteInstrData]
+Class="Function"
+Prototype="ViStatus KE6485_WriteInstrData(ViSession vi, ViConstString writeBuffer);"
+IsStatic=0
+IsVariadic=0
+ArgSize=8
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_ReadInstrData]
+Class="Function"
+Prototype="ViStatus KE6485_ReadInstrData(ViSession vi, ViInt32 numBytes, ViChar rdBuf[], ViInt32 *bytesRead);"
+IsStatic=0
+IsVariadic=0
+ArgSize=16
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_GetAttributeViInt32]
+Class="Function"
+Prototype="ViStatus KE6485_GetAttributeViInt32(ViSession vi, ViConstString channelName, ViAttr attribute, ViInt32 *value);"
+IsStatic=0
+IsVariadic=0
+ArgSize=16
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_GetAttributeViReal64]
+Class="Function"
+Prototype="ViStatus KE6485_GetAttributeViReal64(ViSession vi, ViConstString channelName, ViAttr attribute, ViReal64 *value);"
+IsStatic=0
+IsVariadic=0
+ArgSize=16
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_GetAttributeViString]
+Class="Function"
+Prototype="ViStatus KE6485_GetAttributeViString(ViSession vi, ViConstString channelName, ViAttr attribute, ViInt32 bufSize, ViChar value[]);"
+IsStatic=0
+IsVariadic=0
+ArgSize=20
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_GetAttributeViSession]
+Class="Function"
+Prototype="ViStatus KE6485_GetAttributeViSession(ViSession vi, ViConstString channelName, ViAttr attribute, ViSession *value);"
+IsStatic=0
+IsVariadic=0
+ArgSize=16
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_GetAttributeViBoolean]
+Class="Function"
+Prototype="ViStatus KE6485_GetAttributeViBoolean(ViSession vi, ViConstString channelName, ViAttr attribute, ViBoolean *value);"
+IsStatic=0
+IsVariadic=0
+ArgSize=16
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_SetAttributeViInt32]
+Class="Function"
+Prototype="ViStatus KE6485_SetAttributeViInt32(ViSession vi, ViConstString channelName, ViAttr attribute, ViInt32 value);"
+IsStatic=0
+IsVariadic=0
+ArgSize=16
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_SetAttributeViReal64]
+Class="Function"
+Prototype="ViStatus KE6485_SetAttributeViReal64(ViSession vi, ViConstString channelName, ViAttr attribute, ViReal64 value);"
+IsStatic=0
+IsVariadic=0
+ArgSize=20
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_SetAttributeViString]
+Class="Function"
+Prototype="ViStatus KE6485_SetAttributeViString(ViSession vi, ViConstString channelName, ViAttr attribute, ViConstString value);"
+IsStatic=0
+IsVariadic=0
+ArgSize=16
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_SetAttributeViSession]
+Class="Function"
+Prototype="ViStatus KE6485_SetAttributeViSession(ViSession vi, ViConstString channelName, ViAttr attribute, ViSession value);"
+IsStatic=0
+IsVariadic=0
+ArgSize=16
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_SetAttributeViBoolean]
+Class="Function"
+Prototype="ViStatus KE6485_SetAttributeViBoolean(ViSession vi, ViConstString channelName, ViAttr attribute, ViBoolean value);"
+IsStatic=0
+IsVariadic=0
+ArgSize=16
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_CheckAttributeViInt32]
+Class="Function"
+Prototype="ViStatus KE6485_CheckAttributeViInt32(ViSession vi, ViConstString channelName, ViAttr attribute, ViInt32 value);"
+IsStatic=0
+IsVariadic=0
+ArgSize=16
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_CheckAttributeViReal64]
+Class="Function"
+Prototype="ViStatus KE6485_CheckAttributeViReal64(ViSession vi, ViConstString channelName, ViAttr attribute, ViReal64 value);"
+IsStatic=0
+IsVariadic=0
+ArgSize=20
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_CheckAttributeViString]
+Class="Function"
+Prototype="ViStatus KE6485_CheckAttributeViString(ViSession vi, ViConstString channelName, ViAttr attribute, ViConstString value);"
+IsStatic=0
+IsVariadic=0
+ArgSize=16
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_CheckAttributeViSession]
+Class="Function"
+Prototype="ViStatus KE6485_CheckAttributeViSession(ViSession vi, ViConstString channelName, ViAttr attribute, ViSession value);"
+IsStatic=0
+IsVariadic=0
+ArgSize=16
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+
+[KE6485_CheckAttributeViBoolean]
+Class="Function"
+Prototype="ViStatus KE6485_CheckAttributeViBoolean(ViSession vi, ViConstString channelName, ViAttr attribute, ViBoolean value);"
+IsStatic=0
+IsVariadic=0
+ArgSize=16
+ResultType="ViStatus"
+CanonicalResultType="long"
+CallingConvention="stdcall"
+

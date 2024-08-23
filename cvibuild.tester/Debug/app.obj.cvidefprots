@@ -1,0 +1,5 @@
+[WinMain]
+Class="Function"
+Prototype="int WinMain(struct HINSTANCE__ *hInstance, struct HINSTANCE__ *hPrevInstance, char *lpszCmdLine, int nCmdShow);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\app.c:33:15"
+

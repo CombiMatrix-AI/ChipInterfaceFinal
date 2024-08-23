@@ -1,0 +1,15 @@
+[LoadProperties]
+Class="Function"
+Prototype="int LoadProperties(char *propertiesFilename, struct Properties_Tag *defaults);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\properties.c:9:5"
+
+[SetProperties]
+Class="Function"
+Prototype="int SetProperties(struct IniStructForwardReferenceTag *propertiesFileHandle, struct Properties_Tag *defaults);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\properties.c:59:5"
+
+[SaveProperties]
+Class="Function"
+Prototype="int SaveProperties(char *propertiesFilename, struct Properties_Tag *defaults);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\properties.c:75:5"
+

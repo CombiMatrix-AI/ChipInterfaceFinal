@@ -1,0 +1,30 @@
+[LoadDebugPanel]
+Class="Function"
+Prototype="int LoadDebugPanel();"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\debuguir.c:10:5"
+
+[DisplayDebugPanel]
+Class="Function"
+Prototype="int DisplayDebugPanel();"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\debuguir.c:16:5"
+
+[AddToDebugOutput]
+Class="Function"
+Prototype="int AddToDebugOutput(char *message);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\debuguir.c:25:5"
+
+[WriteMapToDebugWindow]
+Class="Function"
+Prototype="int WriteMapToDebugWindow(int channel, int *map);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\debuguir.c:32:5"
+
+[DebugPanelCB]
+Class="Function"
+Prototype="int DebugPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\debuguir.c:56:17"
+
+[ClearDebugOutputCB]
+Class="Function"
+Prototype="int ClearDebugOutputCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\debuguir.c:68:17"
+

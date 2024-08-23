@@ -1,0 +1,28 @@
+app.obj
+chipcontrol.obj
+chipmapuir.obj
+csvutils.obj
+debuguir.obj
+KE6485Driver.obj
+KE6485uir.obj
+log.obj
+patterndef.obj
+patternuir.obj
+properties.obj
+voltage.obj
+cvi.lib
+advanlys.lib
+cvistart.lib
+easytab.obj
+inifile.obj
+ke6485.lib
+PCI-Dask.lib
+toolbox.obj
+advapi32.lib
+cviauto.lib
+gdi32.lib
+kernel32.lib
+user32.lib
+EXE Symbol Module
+Exports Module
+Resource Module

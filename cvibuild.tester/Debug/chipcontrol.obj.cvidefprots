@@ -1,0 +1,60 @@
+[SetChipHardwareEmulation]
+Class="Function"
+Prototype="void SetChipHardwareEmulation(int emulationState);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipcontrol.c:18:6"
+
+[SetupChipControlCard]
+Class="Function"
+Prototype="int SetupChipControlCard(struct Properties_Tag *defaults);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipcontrol.c:32:5"
+
+[SetDacVoltage]
+Class="Function"
+Prototype="int SetDacVoltage(int channel, double voltage);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipcontrol.c:85:5"
+
+[ShutdownChipControlCard]
+Class="Function"
+Prototype="int ShutdownChipControlCard();"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipcontrol.c:112:5"
+
+[SetChipMap]
+Class="Function"
+Prototype="int SetChipMap(int channel, int *map);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipcontrol.c:140:5"
+
+[GetChipMap]
+Class="Function"
+Prototype="int GetChipMap(int channel, int *map);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipcontrol.c:224:5"
+
+[SetChipState]
+Class="Function"
+Prototype="int SetChipState(int channel, int row, int column, int value);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipcontrol.c:296:5"
+
+[GetChipState]
+Class="Function"
+Prototype="int GetChipState(int channel, int row, int column, int *value);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipcontrol.c:361:5"
+
+[SetChipHardwareDelay]
+Class="Function"
+Prototype="void SetChipHardwareDelay(int newDelay);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipcontrol.c:412:6"
+
+[GetChipHardwareDelay]
+Class="Function"
+Prototype="int GetChipHardwareDelay();"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipcontrol.c:421:5"
+
+[Wait]
+Class="Function"
+Prototype="int Wait(int counts);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipcontrol.c:426:5"
+
+[WaitThread]
+Class="Function"
+Prototype="int WaitThread(void *functionData);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipcontrol.c:443:17"
+

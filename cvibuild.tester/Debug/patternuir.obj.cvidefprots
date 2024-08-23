@@ -1,0 +1,225 @@
+[LoadPatternDefinitionPanel]
+Class="Function"
+Prototype="int LoadPatternDefinitionPanel(char *version, struct Properties_Tag *defaults);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:16:5"
+
+[BlockMenubarCB]
+Class="Function"
+Prototype="void BlockMenubarCB(int menuBar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:85:18"
+
+[LoadBlockCB]
+Class="Function"
+Prototype="int LoadBlockCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:421:17"
+
+[UpdateBlockCB]
+Class="Function"
+Prototype="int UpdateBlockCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:433:17"
+
+[AddBlockCB]
+Class="Function"
+Prototype="int AddBlockCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:473:17"
+
+[NewBlockCB]
+Class="Function"
+Prototype="int NewBlockCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:603:17"
+
+[TileBlockCB]
+Class="Function"
+Prototype="int TileBlockCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:621:17"
+
+[PatternPanelCB]
+Class="Function"
+Prototype="int PatternPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:805:17"
+
+[ResizeBlockTable]
+Class="Function"
+Prototype="int ResizeBlockTable(int numberRows, int numberColumns);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:817:5"
+
+[SelectPatternCB]
+Class="Function"
+Prototype="int SelectPatternCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:849:17"
+
+[SetVlineMenu]
+Class="Function"
+Prototype="void SetVlineMenu(int panelHandle, int controlID, int MenuItemID, void *callbackData);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:887:18"
+
+[SetBlockDesignMenu]
+Class="Function"
+Prototype="void SetBlockDesignMenu(int panelHandle, int controlID, int MenuItemID, void *callbackData);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:930:18"
+
+[GetBlock]
+Class="Function"
+Prototype="int GetBlock(int *newBlock, int numberRows, int numberColumns);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:983:5"
+
+[UpdateChipView]
+Class="Function"
+Prototype="int UpdateChipView(int *pattern);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:1005:5"
+
+[GetBlockPanelValues]
+Class="Function"
+Prototype="int GetBlockPanelValues(struct PatternDefinition *newPattern, int *pattern);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:1062:5"
+
+[SetBlockPanelValues]
+Class="Function"
+Prototype="int SetBlockPanelValues(struct PatternDefinition *newPattern);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:1091:5"
+
+[BlockListPanelCB]
+Class="Function"
+Prototype="int BlockListPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:1142:17"
+
+[PatternListCB]
+Class="Function"
+Prototype="int PatternListCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:1160:17"
+
+[ActivatePatternCB]
+Class="Function"
+Prototype="int ActivatePatternCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:1188:17"
+
+[EditPatternList]
+Class="Function"
+Prototype="int EditPatternList(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:1482:17"
+
+[ChipImageCB]
+Class="Function"
+Prototype="int ChipImageCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:1568:17"
+
+[SetElectrodePositionTimer]
+Class="Function"
+Prototype="int SetElectrodePositionTimer(double newInterval);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:1593:5"
+
+[ElectrodeTimer]
+Class="Function"
+Prototype="int ElectrodeTimer(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:1599:17"
+
+[ChipTestPanelCB]
+Class="Function"
+Prototype="int ChipTestPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:1637:17"
+
+[AddressTest]
+Class="Function"
+Prototype="int AddressTest(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:1661:17"
+
+[SetDelayCB]
+Class="Function"
+Prototype="int SetDelayCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:1800:17"
+
+[MiniChipCanvasCB]
+Class="Function"
+Prototype="int MiniChipCanvasCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:1817:17"
+
+[ResetMiniChipViews]
+Class="Function"
+Prototype="int ResetMiniChipViews();"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:1828:5"
+
+[UpdateMiniChipView]
+Class="Function"
+Prototype="int UpdateMiniChipView(int *pattern, int channel);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:1841:5"
+
+[VoltagePanelCB]
+Class="Function"
+Prototype="int VoltagePanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:1900:17"
+
+[SetVoltageCB]
+Class="Function"
+Prototype="int SetVoltageCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:1918:17"
+
+[SelectVoltageCB]
+Class="Function"
+Prototype="int SelectVoltageCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:1952:17"
+
+[StartVoltageCB]
+Class="Function"
+Prototype="int StartVoltageCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:1964:17"
+
+[MonitorVoltageThreads]
+Class="Function"
+Prototype="void MonitorVoltageThreads();"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:2004:6"
+
+[WatchVoltageThreads]
+Class="Function"
+Prototype="int WatchVoltageThreads(void *functionData);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:2009:17"
+
+[GetVoltagePanelData]
+Class="Function"
+Prototype="int GetVoltagePanelData(struct VoltageHardware *profile);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:2080:5"
+
+[SetVoltagePanelData]
+Class="Function"
+Prototype="int SetVoltagePanelData(struct VoltageHardware profile);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:2111:5"
+
+[SetTiledDescriptionName]
+Class="Function"
+Prototype="int SetTiledDescriptionName(struct PatternDefinition *block, int tileRow, int tileColumn);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:2140:5"
+
+[StartBatchRunThread]
+Class="Function"
+Prototype="int StartBatchRunThread();"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:2155:5"
+
+[StartBatchRunSingleThread]
+Class="Function"
+Prototype="int StartBatchRunSingleThread();"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:2167:5"
+
+[batchRunThreadFunction]
+Class="Function"
+Prototype="int batchRunThreadFunction(void *functionData);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:2179:17"
+
+[batchRunCallbackFunction]
+Class="Function"
+Prototype="void batchRunCallbackFunction(int poolHandle, int functionID, unsigned int event, int value, void *callbackData);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:2495:18"
+
+[batchRunSingleThreadFunction]
+Class="Function"
+Prototype="int batchRunSingleThreadFunction(void *functionData);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:2516:17"
+
+[batchRunSingleCallbackFunction]
+Class="Function"
+Prototype="void batchRunSingleCallbackFunction(int poolHandle, int functionID, unsigned int event, int value, void *callbackData);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:2870:18"
+
+[BatchViewPanelCB]
+Class="Function"
+Prototype="int BatchViewPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\patternuir.c:2891:17"
+

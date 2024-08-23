@@ -1,0 +1,85 @@
+[InitKE6485]
+Class="Function"
+Prototype="int InitKE6485(double nplc, int autorange, double resolution, double range, int simulate);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485Driver.c:25:5"
+
+[CloseKE6485]
+Class="Function"
+Prototype="void CloseKE6485();"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485Driver.c:104:6"
+
+[StartSampleReadThread]
+Class="Function"
+Prototype="int StartSampleReadThread(double duration);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485Driver.c:109:5"
+
+[StartSampleReadThreadFunction]
+Class="Function"
+Prototype="int StartSampleReadThreadFunction(void *functionData);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485Driver.c:121:17"
+
+[SampleReadThreadFunctionCallback]
+Class="Function"
+Prototype="void SampleReadThreadFunctionCallback(int poolHandle, int functionID, unsigned int event, int value, void *callbackData);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485Driver.c:133:18"
+
+[StartSampleRead]
+Class="Function"
+Prototype="int StartSampleRead();"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485Driver.c:181:5"
+
+[KE6485Abort]
+Class="Function"
+Prototype="void KE6485Abort();"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485Driver.c:210:6"
+
+[KE6485ClearBuffer]
+Class="Function"
+Prototype="void KE6485ClearBuffer();"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485Driver.c:215:6"
+
+[StopAndFetchSampleRead]
+Class="Function"
+Prototype="int StopAndFetchSampleRead(double *buffer, int *numberSamples);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485Driver.c:220:5"
+
+[ReadStatistics]
+Class="Function"
+Prototype="int ReadStatistics(int numberSamples, int maxTime, double *mean, double *stdev, double *min, double *max, double *pk2pk);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485Driver.c:236:5"
+
+[ReadSamples]
+Class="Function"
+Prototype="int ReadSamples(int numberSamples, double temp, double *sampleBuffer);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485Driver.c:451:5"
+
+[ReadSingleSample]
+Class="Function"
+Prototype="int ReadSingleSample(double *sample);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485Driver.c:521:5"
+
+[InitiateAndFetch]
+Class="Function"
+Prototype="int InitiateAndFetch(int maxTime, double *sample);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485Driver.c:560:5"
+
+[GetLastResult]
+Class="Function"
+Prototype="void GetLastResult(int status, char *msg);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485Driver.c:576:6"
+
+[HandleError]
+Class="Function"
+Prototype="void HandleError(unsigned long vi, long error);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485Driver.c:581:6"
+
+[InfinateAcquire]
+Class="Function"
+Prototype="int InfinateAcquire(int state);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485Driver.c:614:5"
+
+[InfinateAcquireThread]
+Class="Function"
+Prototype="int InfinateAcquireThread(void *functionData);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485Driver.c:646:17"
+

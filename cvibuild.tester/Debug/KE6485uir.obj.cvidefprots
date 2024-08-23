@@ -1,0 +1,45 @@
+[LoadKeithleyPanel]
+Class="Function"
+Prototype="int LoadKeithleyPanel();"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485uir.c:17:5"
+
+[KeithleyPanelCB]
+Class="Function"
+Prototype="int KeithleyPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485uir.c:28:17"
+
+[InitKeithleyCB]
+Class="Function"
+Prototype="int InitKeithleyCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485uir.c:42:17"
+
+[AquireStatisticsCB]
+Class="Function"
+Prototype="int AquireStatisticsCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485uir.c:80:17"
+
+[AquireSamplesCB]
+Class="Function"
+Prototype="int AquireSamplesCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485uir.c:131:17"
+
+[AquireSampleCB]
+Class="Function"
+Prototype="int AquireSampleCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485uir.c:200:17"
+
+[InfinateAcquireCB]
+Class="Function"
+Prototype="int InfinateAcquireCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485uir.c:234:17"
+
+[InsertNewMeasurement]
+Class="Function"
+Prototype="void InsertNewMeasurement(unsigned int wParam, unsigned long lParam, void *callbackData);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485uir.c:252:18"
+
+[ClearTableCB]
+Class="Function"
+Prototype="int ClearTableCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\KE6485uir.c:259:17"
+

@@ -1,0 +1,58 @@
+-nologo
+-out:c:\Users\combi\Downloads\ChipInterfaceFinal-main\cvibuild.tester\Debug\tester.exe
+-arch:x86
+-timestamp
+-debug:2
+-project:c:\Users\combi\Downloads\ChipInterfaceFinal-main\tester.prj
+-res:c:\Users\combi\Downloads\ChipInterfaceFinal-main\cvibuild.tester\Debug\resources.res
+-entry:_CVIWinMainStartupCodeForDebugging@0
+-base:0x400000
+-linked:c:\Users\combi\Downloads\ChipInterfaceFinal-main\cvibuild.tester\Debug\linkersummary.txt
+-dlldeps:c:\Users\combi\Downloads\ChipInterfaceFinal-main\cvibuild.tester\Debug\dlldependencies.txt
+-licensing:c:\Users\combi\Downloads\ChipInterfaceFinal-main\cvibuild.tester\Debug\linkerlicensing.txt
+-browsedeps:c:\Users\combi\Downloads\ChipInterfaceFinal-main\cvibuild.tester\Debug\moduledependencies.txt
+-stackreserve:1048576
+-stackcommit:4096
+-in:c:\Users\combi\Downloads\ChipInterfaceFinal-main\cvibuild.tester\Debug\app.obj
+-in:c:\Users\combi\Downloads\ChipInterfaceFinal-main\cvibuild.tester\Debug\chipcontrol.obj
+-in:c:\Users\combi\Downloads\ChipInterfaceFinal-main\cvibuild.tester\Debug\chipmapuir.obj
+-in:c:\Users\combi\Downloads\ChipInterfaceFinal-main\cvibuild.tester\Debug\csvutils.obj
+-in:c:\Users\combi\Downloads\ChipInterfaceFinal-main\cvibuild.tester\Debug\debuguir.obj
+-in:c:\Users\combi\Downloads\ChipInterfaceFinal-main\cvibuild.tester\Debug\KE6485Driver.obj
+-in:c:\Users\combi\Downloads\ChipInterfaceFinal-main\cvibuild.tester\Debug\KE6485uir.obj
+-in:c:\Users\combi\Downloads\ChipInterfaceFinal-main\cvibuild.tester\Debug\log.obj
+-in:c:\Users\combi\Downloads\ChipInterfaceFinal-main\cvibuild.tester\Debug\patterndef.obj
+-in:c:\Users\combi\Downloads\ChipInterfaceFinal-main\cvibuild.tester\Debug\patternuir.obj
+-in:c:\Users\combi\Downloads\ChipInterfaceFinal-main\cvibuild.tester\Debug\properties.obj
+-in:c:\Users\combi\Downloads\ChipInterfaceFinal-main\cvibuild.tester\Debug\voltage.obj
+-more:c:\program files (x86)\national instruments\cvi2020\bin\msvc\cvistart.lib
+-more:c:\program files (x86)\national instruments\cvi2020\bin\msvc\cvi.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\advanlys.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\advapi32.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\bufferoverflowu.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\toolslib\custctrl\custsupp\msvc\ckeztab.obj
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\cvi_db.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cviauto.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cvidotnet.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cvinetstreams.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cvinetv.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cvintwrk.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cvitdms.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\toolslib\custctrl\msvc\easytab.obj
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\gdi32.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\gpib.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\toolslib\toolbox\msvc\inifile.obj
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\ivi.lib
+-more:c:\Users\combi\Downloads\ChipInterfaceFinal-main\ke6485.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\kernel32.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\NIDAQmx.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\nisyscfg.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\nivxi.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\omp.lib
+-more:c:\Users\combi\Downloads\ChipInterfaceFinal-main\PCI-Dask.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\pid.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\toolslib\toolbox\msvc\toolbox.obj
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\user32.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\uuid.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\visa.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\winmm.lib

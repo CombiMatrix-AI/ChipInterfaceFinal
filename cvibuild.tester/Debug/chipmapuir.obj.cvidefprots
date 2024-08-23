@@ -1,0 +1,55 @@
+[LoadChipMapPanel]
+Class="Function"
+Prototype="int LoadChipMapPanel();"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipmapuir.c:15:5"
+
+[ChipMapPanelCB]
+Class="Function"
+Prototype="int ChipMapPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipmapuir.c:26:17"
+
+[ChipTestMenuBarCB]
+Class="Function"
+Prototype="void ChipTestMenuBarCB(int menuBar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipmapuir.c:45:18"
+
+[StartMappingCB]
+Class="Function"
+Prototype="int StartMappingCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipmapuir.c:56:17"
+
+[AbortMappingCB]
+Class="Function"
+Prototype="int AbortMappingCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipmapuir.c:85:17"
+
+[GetChipMapPanelValues]
+Class="Function"
+Prototype="int GetChipMapPanelValues(struct ChipMapperDefinition *panelValues);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipmapuir.c:97:5"
+
+[StartChipMappingThread]
+Class="Function"
+Prototype="int StartChipMappingThread(struct ChipMapperDefinition *panelValues);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipmapuir.c:122:5"
+
+[ChipMapperThread]
+Class="Function"
+Prototype="int ChipMapperThread(void *functionData);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipmapuir.c:154:17"
+
+[SetNextMeasurementSite]
+Class="Function"
+Prototype="int SetNextMeasurementSite(int *map, int channel, int row, int column, int workingVline, int neighborVline);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipmapuir.c:326:5"
+
+[UpdateChipMapView]
+Class="Function"
+Prototype="int UpdateChipMapView(int *pattern, int workingVline, int neighborVline, int floatVline);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipmapuir.c:383:5"
+
+[SelectFolderCB]
+Class="Function"
+Prototype="int SelectFolderCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\combi\Downloads\ChipInterfaceFinal-main\chipmapuir.c:437:17"
+
