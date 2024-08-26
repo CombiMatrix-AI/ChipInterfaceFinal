@@ -19,7 +19,7 @@
 	#define MAXIMUM_ELECTRODES	1024
 	#define NUMBER_CHANNELS		4
 	
-	#define NUMBER_DAC_CHANNELS	2
+	#define NUMBER_DAC_CHANNELS	1
 	#define DAC_VOLTAGE_REFERENCE AD_U_5_V 
 
 	//prototypes

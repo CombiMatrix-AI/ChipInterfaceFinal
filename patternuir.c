@@ -1342,20 +1342,8 @@ int CVICALLBACK ActivatePatternCB (int panel, int control, int event,
 								//get the voltage profile information for timing
 								GetVoltagePanelData(&profile);
 								//need to factor in the number of off time as well
-								if(profile.dacChannel[0].totalDuration + 
-								   (profile.dacChannel[0].totalDuration / profile.dacChannel[0].onDuration) * profile.dacChannel[0].offDuration
-								   > 
-								   profile.dacChannel[1].totalDuration +
-								   (profile.dacChannel[1].totalDuration / profile.dacChannel[1].onDuration) * profile.dacChannel[1].offDuration)
-								{
-									longestDuration = profile.dacChannel[0].totalDuration + 
+								longestDuration = profile.dacChannel[0].totalDuration +
 								   (profile.dacChannel[0].totalDuration / profile.dacChannel[0].onDuration) * profile.dacChannel[0].offDuration;
-								}
-								else
-								{
-									longestDuration = profile.dacChannel[1].totalDuration +
-								   (profile.dacChannel[1].totalDuration / profile.dacChannel[1].onDuration) * profile.dacChannel[1].offDuration;
-								}
 								//Start Keithley measurements
 								StartSampleRead();	   //get measurements started
 								StartSampleReadThread(longestDuration);	 //delay for acquisition
@@ -2093,18 +2081,6 @@ int GetVoltagePanelData(VoltageHardware *profile)
 	GetCtrlVal(voltagePanel, VOLTAGE_CONTINOUS, &profile->dacChannel[0].continous);	
 	GetCtrlVal(voltagePanel, VOLTAGE_TOTALDURATION, &profile->dacChannel[0].totalDuration);
 	
-	//Get data for channel 2;
-	profile->dacChannel[1].id = 1;
-	GetCtrlVal(voltagePanel, VOLTAGE_PROFILE_2, &profile->dacChannel[1].vProfile);
-	GetCtrlVal(voltagePanel, VOLTAGE_VSTART_2, &profile->dacChannel[1].vStart);
-	GetCtrlVal(voltagePanel, VOLTAGE_VA_2, &profile->dacChannel[1].vA);
-	GetCtrlVal(voltagePanel, VOLTAGE_VB_2, &profile->dacChannel[1].vB);
-	GetCtrlVal(voltagePanel, VOLTAGE_RAMPRATE_2, &profile->dacChannel[1].ramprate);
-	GetCtrlVal(voltagePanel, VOLTAGE_ONDURATION_2, &profile->dacChannel[1].onDuration);
-	GetCtrlVal(voltagePanel, VOLTAGE_OFFDURATION_2, &profile->dacChannel[1].offDuration);
-	GetCtrlVal(voltagePanel, VOLTAGE_CONTINOUS_2, &profile->dacChannel[1].continous);	
-	GetCtrlVal(voltagePanel, VOLTAGE_TOTALDURATION_2, &profile->dacChannel[1].totalDuration);
-	
 	return 0;
 }
 
@@ -2122,18 +2098,7 @@ int SetVoltagePanelData(VoltageHardware profile)
 	SetCtrlVal(voltagePanel, VOLTAGE_OFFDURATION, profile.dacChannel[0].offDuration);
 	SetCtrlVal(voltagePanel, VOLTAGE_CONTINOUS, profile.dacChannel[0].continous);	
 	SetCtrlVal(voltagePanel, VOLTAGE_TOTALDURATION, profile.dacChannel[0].totalDuration);
-	
-	//Get data for channel 2;
-	SetCtrlVal(voltagePanel, VOLTAGE_PROFILE_2, profile.dacChannel[1].vProfile);
-	SetCtrlVal(voltagePanel, VOLTAGE_VSTART_2, profile.dacChannel[1].vStart);
-	SetCtrlVal(voltagePanel, VOLTAGE_VA_2, profile.dacChannel[1].vA);
-	SetCtrlVal(voltagePanel, VOLTAGE_VB_2, profile.dacChannel[1].vB);
-	SetCtrlVal(voltagePanel, VOLTAGE_RAMPRATE_2, profile.dacChannel[1].ramprate);
-	SetCtrlVal(voltagePanel, VOLTAGE_ONDURATION_2, profile.dacChannel[1].onDuration);
-	SetCtrlVal(voltagePanel, VOLTAGE_OFFDURATION_2, profile.dacChannel[1].offDuration);
-	SetCtrlVal(voltagePanel, VOLTAGE_CONTINOUS_2, profile.dacChannel[1].continous);	
-	SetCtrlVal(voltagePanel, VOLTAGE_TOTALDURATION_2, profile.dacChannel[1].totalDuration);
-	
+
 	return 0;
 }
 
@@ -2361,20 +2326,10 @@ int CVICALLBACK batchRunThreadFunction (void *functionData)
 			
 			//start Keithley
 			//get the longest duration for Keithley sampling (need to factor in the off duration)
-			if(vConfig.dacChannel[0].totalDuration + 
-			   (vConfig.dacChannel[0].totalDuration / vConfig.dacChannel[0].onDuration) * vConfig.dacChannel[0].offDuration
-			   > 
-			   vConfig.dacChannel[1].totalDuration +
-			   (vConfig.dacChannel[1].totalDuration / vConfig.dacChannel[1].onDuration) * vConfig.dacChannel[1].offDuration)
-			{
-				longestDuration = vConfig.dacChannel[0].totalDuration + 
+
+			longestDuration = vConfig.dacChannel[0].totalDuration +
 			   (vConfig.dacChannel[0].totalDuration / vConfig.dacChannel[0].onDuration) * vConfig.dacChannel[0].offDuration;
-			}
-			else
-			{
-				longestDuration = vConfig.dacChannel[1].totalDuration +
-			   (vConfig.dacChannel[1].totalDuration / vConfig.dacChannel[1].onDuration) * vConfig.dacChannel[1].offDuration;
-			}
+
 			
 			//update batch overview
 			sprintf(tempstr, "%2.3f seconds", longestDuration);
@@ -2738,21 +2693,9 @@ int CVICALLBACK batchRunSingleThreadFunction (void *functionData)
 			
 				//start Keithley
 				//get the longest duration for Keithley sampling (need to factor in the off duration)
-				if(vConfig.dacChannel[0].totalDuration + 
-				   (vConfig.dacChannel[0].totalDuration / vConfig.dacChannel[0].onDuration) * vConfig.dacChannel[0].offDuration
-				   > 
-				   vConfig.dacChannel[1].totalDuration +
-				   (vConfig.dacChannel[1].totalDuration / vConfig.dacChannel[1].onDuration) * vConfig.dacChannel[1].offDuration)
-				{
-					longestDuration = vConfig.dacChannel[0].totalDuration + 
+				longestDuration = vConfig.dacChannel[0].totalDuration +
 				   (vConfig.dacChannel[0].totalDuration / vConfig.dacChannel[0].onDuration) * vConfig.dacChannel[0].offDuration;
-				}
-				else
-				{
-					longestDuration = vConfig.dacChannel[1].totalDuration +
-				   (vConfig.dacChannel[1].totalDuration / vConfig.dacChannel[1].onDuration) * vConfig.dacChannel[1].offDuration;
-				}
-			
+
 				//update batch overview
 				sprintf(tempstr, "%2.3f seconds", longestDuration);
 				SetCtrlVal(batchViewPanel, BATCHVIEW_DURATION, tempstr);

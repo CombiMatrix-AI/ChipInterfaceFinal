@@ -24,14 +24,7 @@ int StartVoltageSeries(VoltageHardware profile)
 		StopVoltageSeries();
 		return 0;
 	}
-	status = CmtScheduleThreadPoolFunctionAdv (DEFAULT_THREAD_POOL_HANDLE, (ThreadFunctionPtr) VoltageProfileThread, 
-		(void*)&gProfile.dacChannel[1], 1, NULL, NULL, NULL, NULL, &threadFunctionID[1]);
-	if(status != 0)
-	{
-		MessagePopup("ERROR", "Could not start pulsing thread!");
-		StopVoltageSeries();
-		return 0;
-	}	
+
 	//CmtScheduleThreadPoolFunction (DEFAULT_THREAD_POOL_HANDLE, (ThreadFunctionPtr) VoltageProfileThread, (void*)&gProfile.dacChannel[0], &threadFunctionID[0]);
 	//CmtScheduleThreadPoolFunction (DEFAULT_THREAD_POOL_HANDLE, (ThreadFunctionPtr) VoltageProfileThread, (void*)&gProfile.dacChannel[1], &threadFunctionID[1]);
 	//CmtWaitForThreadPoolFunctionCompletion (DEFAULT_THREAD_POOL_HANDLE, threadFunctionID[0], OPT_TP_PROCESS_EVENTS_WHILE_WAITING);
