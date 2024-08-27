@@ -60,7 +60,7 @@ int SetupChipControlCard(Properties *defaults)
 	
 	//status = AO_9112_Config (CHIP_CARD_NUMBER, 0, -5.0);
 	//I have no clue if these settings work I pulled them out of my ass -Loren
-	status = AO_Config (CHIP_CARD_NUMBER, P91xx_AO_TIMEBASE_INT, P91xx_AO_TRGSRC_SOFT | P91xx_AO_TrgPositive, 0, TRUE);
+	status = AO_Config (CHIP_CARD_NUMBER, P91xx_AO_TIMEBASE_INT, P91xx_AO_TRGMOD_POST | P91xx_AO_TRGSRC_SOFT, 1, TRUE);
 	if(status < 0)
 	{
 		sprintf(message, "Could not setup PCIe_9101 DAC: Error %d", status);
